@@ -1,0 +1,111 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: white;
+  }
+  
+  .navbar-logo {
+    font-weight: bold;
+  }
+  
+  .navbar-toggle {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  .hero {
+    background-image: url('/public/Capture33.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(161, 22, 22);
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+  }
+  
+  .hero-btn {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  .products-section {
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  .product-cards {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .card {
+    background-color: white;
+    border: 1px solid #ccc;
+    width: 30%;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .card img {
+    max-width: 100%;
+  }
+  
+  .card h3 {
+    margin-top: 1rem;
+  }
+  
+  .card button {
+    background-color: #000;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .price {
+    margin-top: 0.5rem;
+    font-weight: bold;
+  }
+  .footer {
+    background-color: #000;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+  }
+  
+  .footer-links {
+    list-style: none;
+  }
+  
+  .footer-links li {
+    margin: 0.5rem 0;
+  }
+  
+  .footer-social i {
+    margin: 0 0.5rem;
+    cursor: pointer;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #ccc;
+    padding-top: 1rem;
+  }
+      
