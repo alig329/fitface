@@ -1,5 +1,6 @@
 import React from 'react';
 import './Style.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const Footer = () => {
   return (
@@ -13,10 +14,10 @@ const Footer = () => {
           <li>Terms of Use</li>
         </ul>
         <div className="footer-social">
-          <i className="fas fa-facebook-f"></i>
-          <i className="fas fa-instagram"></i>
-          <i className="fas fa-youtube"></i>
-          <i className="fas fa-tiktok"></i>
+          <i className="fab fa-facebook-f"></i>
+          <i className="fab fa-instagram"></i>
+          <i className="fab fa-youtube"></i>
+          <i className="fab fa-tiktok"></i>
         </div>
       </div>
       <div className="footer-bottom">
